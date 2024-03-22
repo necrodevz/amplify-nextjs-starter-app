@@ -9,8 +9,8 @@ const client = generateClient<Schema>() // use this Data client for CRUDL reques
 
 export default function Home() {
   return (
-      <div class="container mx-auto p-4">
-        <button class="font-sans text-lg text-balance rounded border-2 border-cyan-600">Register Using Telegram</button>
+      <div className="container mx-auto p-4">
+        <button className="font-sans text-lg text-balance rounded border-2 border-cyan-600">Register Using Telegram</button>
       </div>
   )
 }
